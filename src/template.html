@@ -6,13 +6,33 @@
     <title>Document</title>
 </head>
 <body>
-    <nav>
-        <button>Toggle Dropdown</button>
-        <div class="link-container">
-            <a href="">Link 1</a>
-            <a href="">Link 2</a>
-            <a href="">Link 3</a>
-        </div>
-    </nav>
+  <form id="form" action="" novalidate>
+    <div class="input-cont">
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" required>
+        <span id="email-error"></span>
+    </div>
+    <div class="input-cont">
+        <label for="country">Country:</label>
+        <select id="country">
+            <option value="us">United States of America</option>
+            <option value="jp">Japan</option>
+            <option value="en">England</option>
+            <option value="me">Mexico</option>
+          </select>
+    </div>
+    <div class="input-cont">
+        <label for="zipcode">Zip Code:</label>
+        <input type="text" name="zipCode" id="zipcode">
+    </div>
+    <div class="input-cont">
+        <label for="password">Password:</label>
+        <input type="text" name="password" id="password">
+    </div>
+    <div class="input-cont">
+        <label for="password-confirmation">Password Confirmation:</label>
+        <input type="text" name="pwConfirmation" id="password-confirmation">
+    </div>
+  </form>
 </body>
 </html>

@@ -1,39 +1,34 @@
 body {
-    background-color: #FBF5F3;
-    height: 100vh;
     margin: 0;
-}
-
-nav {
-    background-color: #8DAA9D;
-    height: 100px;
-}
-
-button {
-    width: 125px;
-    height: 43px;
-    text-align: center;
-    margin: 10px;
-}
-
-.link-container {
+    height: 100vh;
     display: flex;
-    max-height: 0px;
-    transition: max-height 0.3s ease, opacity 0.3s ease; /* Smooth transition */
-    opacity: 0;
     flex-direction: column;
-    background-color: #934D7F;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    height: 100px;
-    width: 100px;
-    border-radius: 5px;
-    margin-top: 10px;
-    margin-left: 10px;
 }
 
-.link-container.open {
+#form {
+    height: 80%;
+    width: 50%;
+    border: solid green;
     display: flex;
-    max-height: 500px; /* Set a value greater than the maximum content height */
-    opacity: 1;
+    flex-direction: column;
+    gap: 28px;
+} 
+
+.input-cont {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 15px;
+    gap: 5px;
+}
+
+#email:valid {
+    border: solid green;
+    border-radius: 5px;
+}
+
+#email:invalid {
+    border: solid red;
+    border-radius: 5px;
 }
