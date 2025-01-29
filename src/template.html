@@ -14,16 +14,17 @@
     </div>
     <div class="input-cont">
         <label for="country">Country:</label>
-        <select id="country">
+        <select id="country" required>
+            <option value="" selected >--Select an Option--</option>
             <option value="us">United States of America</option>
             <option value="jp">Japan</option>
-            <option value="en">England</option>
             <option value="me">Mexico</option>
           </select>
+          <span id="country-error"></span>
     </div>
     <div class="input-cont">
         <label for="zipcode">Zip Code:</label>
-        <input type="text" name="zipCode" id="zipcode">
+        <input type="text" name="zipCode" id="zipcode" required>
     </div>
     <div class="input-cont">
         <label for="password">Password:</label>

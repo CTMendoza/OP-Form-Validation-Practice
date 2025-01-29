@@ -26,9 +26,29 @@ body {
 #email:valid {
     border: solid green;
     border-radius: 5px;
+    border-width: thin;
 }
 
 #email:invalid {
     border: solid red;
     border-radius: 5px;
+    border-width: thin;
+}
+
+#email {
+    border: solid black;
+    border-radius: 5px;
+    border-width: thin;
+}
+
+#country:valid {
+    border: solid green;
+    border-radius: 5px;
+    border-width: thin;
+}
+
+#country:invalid {
+    border: solid red;
+    border-radius: 5px;
+    border-width: thin;
 }
