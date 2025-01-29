@@ -1,6 +1,7 @@
 import "./styles.css";
 import { validateEmail } from "./validateEmail";
 import { validateCountry } from "./validateCountry";
+import { setupZipCodeValidation } from "./validatezipCode";
 export {email, country, zipCode, password, confirmedPw}
 const email = document.getElementById('email');
 const country = document.getElementById('country');
@@ -11,4 +12,5 @@ const form = document.getElementById('form');
 
 validateEmail();
 validateCountry();
+setupZipCodeValidation();
 

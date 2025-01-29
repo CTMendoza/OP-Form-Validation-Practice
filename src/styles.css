@@ -52,3 +52,16 @@ body {
     border-radius: 5px;
     border-width: thin;
 }
+
+
+#zipcode:valid {
+    border: solid green;
+    border-radius: 5px;
+    border-width: thin;
+}
+
+#zipcode:invalid {
+    border: solid red;
+    border-radius: 5px;
+    border-width: thin;
+}
