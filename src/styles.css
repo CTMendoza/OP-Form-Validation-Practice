@@ -65,3 +65,27 @@ body {
     border-radius: 5px;
     border-width: thin;
 }
+
+#password:valid {
+    border: solid green;
+    border-radius: 5px;
+    border-width: thin;
+}
+
+#password:invalid {
+    border: solid red;
+    border-radius: 5px;
+    border-width: thin;
+}
+
+#password-confirmation:valid {
+    border: solid green;
+    border-radius: 5px;
+    border-width: thin;
+}
+
+#password-confirmation:invalid {
+    border: solid red;
+    border-radius: 5px;
+    border-width: thin;
+}
